@@ -1,7 +1,7 @@
 ---
 title: "Week 02: COVID Visualization Activity"
 date: "September, 11 2023"
-author: "**`[[`**Your Name**`]]`**"
+author: "**`[[`**Sean Ryan**`]]`**"
 ---
 
 Today, we'll be working with a data set related to COVID.
@@ -36,6 +36,21 @@ covid_data_count |>
 ```
 
 1. Write code for a plot and describe what you observe?
+```
+covid_data_count |> 
+  filter(state == "NJ") |> 
+  ggplot(aes(x = date, y = Deaths, color = race)) + geom_line()
+```
+Looking at this plot I observed that in New Jersey, as time progressed, death rates generally increased for all races however the data shows that white people had a more drastic increase in deaths over time compared to other races.
+
 2. Are there any conclusions you can draw?
+
+From this plot it's difficult to draw any definitive conclusions but the data supports that for some unknown reason that deaths of white people were increasing at a higher rate than other races.
+
 3. What were you not able to do due to not having the R knowledge?
+
+Make the graph trend over a specific date range to get more detailed insight into the increasing death rates of Covid victims
+
 4. What other data would be useful to better understand this data?
+
+Other data that would be useful would be the proportion of people of each race that got Covid and the rates at which those Covid cases resulted in death cases.
