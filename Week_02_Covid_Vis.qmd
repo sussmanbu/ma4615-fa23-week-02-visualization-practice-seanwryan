@@ -45,11 +45,11 @@ Looking at this plot I observed that in New Jersey, as time progressed, death ra
 
 2. Are there any conclusions you can draw?
 
-From this plot it's difficult to draw any definitive conclusions but the data supports that for some unknown reason that deaths of white people were increasing at a higher rate than other races.
+From this plot it's difficult to draw any definitive conclusions but the data supports that deaths of white people were increasing at a higher rate than other races.
 
 3. What were you not able to do due to not having the R knowledge?
 
-Make the graph trend over a specific date range to get more detailed insight into the increasing death rates of Covid victims
+I was unable to make the graph trend over a specific date range to get more detailed insight into the increasing death rates of Covid victims. The current plot is a little hard to differentiate between different races because they are clustered together, making it hard to read.
 
 4. What other data would be useful to better understand this data?
 
